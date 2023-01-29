@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/preview02.jpg");
+    background-size: 100%,100%;
+    background-attachment: local;
+}
+/* 去除ul小黑点的显示和占位 */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+.user_mainbody{
+    margin: 0 auto;
+    width: 800px;
+    height: 1000px;
+    text-align: center;
+    background: rgba(148,204,222,0);
+}
+.user_title{
+    position: absolute;
+    margin: 20px 100px;
+    width: 600px;
+    height: 80px;
+    text-align: center;
+    background: rgba(192, 238, 39,0.4);
+}
+.goods_01{/*商品显示栏*/
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 700px;
+    /*height: 800px;*/
+    overflow: hidden;
+    background: rgba(245,245,245,0.5);
+    border: black 2px solid;
+}
+.goods_01>div{/*商品信息块*/
+    margin: 15px;
+    float: left;
+    width: 200px;
+    height: 300px;
+    background: rgba(148, 222, 202,0.6);
+}
+.goods_body{/*商品图片*/
+    float: top;
+    margin-left: 25px;
+    /*margin-top: 25px;*/
+    width: 150px;
+    height: 150px;
+    background: #00ffff;
+}
+.goods_info{
+    float: bottom;
+    margin-top: 50px;
+    /*margin-right: 80px;*/
+    width: 100px;
+    height: 40px;
+    background: red;
+}
+.goods_left{/*货架编号在左边*/
+    float: top;
+    /*margin-left: 50px;*/
+    width: 100px;
+    height: 35px;
+    text-align: center;
+}
+.good_name{/*商品名字*/
+
+}
+.price{
+    float: left;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+}
+.goods_right{/*货架商品数量在右边*/
+    float: right;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+}
+.goods_add{
+    border-radius:15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: rgba(186, 250, 4,0.6);
+    /*border: none;*/
+}
+.goods_count{
+    list-style-type: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.goods_reduce{
+    border-radius:15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: rgba(186, 250, 4,0.6);
+    /*border: none;*/
+}
+.oneline{
+    display: inline;
+}
+.pay_piece{/*支付块*/
+    color: yellow;
+    font-family: "Arial Black";
+    position: fixed;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background: rgba(255,255,255,0);
+    z-index: 10;
+    left: 1100px;
+    bottom:300px;
+}
+.pay_piece button{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.pay_piece button:focus{
+    background: #94ccde;
+}
+.go_back{
+    position: fixed;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background:rgba(255,255,255,0);
+    z-index: 10;
+    left: 1100px;
+    bottom:240px;
+}
+.go_back button{
+    margin-top: 8px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.price{
+    float: left;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+}
+.price_piece{
+    float: left;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+}
